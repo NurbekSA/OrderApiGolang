@@ -1,0 +1,24 @@
+{
+  "app": {
+    "app_name": "amanzat_user_api",
+    "bind_addr": "127.0.0.1",
+    "bind_port": "8080",
+    "log_level": "debug"
+  },
+  "database": {
+    "host": "localhost",
+    "port": "5432",
+    "username": "postgres",
+    "password": "1234",
+    "database": "test_db"
+  },
+  "kafka": {
+    "brokers": ["localhost:9092"]
+  },
+  "redis": {
+    "host": "localhost",
+    "port": "6379",
+    "password": "",
+    "db": 0
+  }
+}
